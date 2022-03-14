@@ -1,0 +1,7 @@
+apiVersion: kfns0b11.dev/v1beta1
+kind: Test
+metadata:
+  name: my-test-crd
+spec:
+  cronSpec: "* * * * */5"
+  image: my-test-image
